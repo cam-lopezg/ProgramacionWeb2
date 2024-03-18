@@ -1,0 +1,1 @@
+Existen dos branches, debido a que todavia no manejamos bien esta plataforma y no sabiamos como subir el archivo en conjunto sin que se duplicaran o se borrara algo del otro. Decidimos subir 2 versiones, una en cada branch.

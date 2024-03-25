@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor-central">
+        <div class="contenedor-login">
+            <h2>Iniciar sesión</h2>
+            <form action="" id="contenedor-boton2">
+                <div class="grupo-formulario">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" name="contraseña" required>
+                </div>
+                <div>
+                    <input type="submit" id="enviar"/>
+                </div>
+                <div class="grupo-formulario" id="contenedor-boton">
+                    <a href="#" class="olvidar-contraseña">¿Olvidaste tu contraseña?</a>
+                </div>
+            </form>
+        </div>
+    </div>  
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $("#contenedor-boton2").submit(function (e) {//e=evento
+                e.preventDefault(); 
+                console.log("Entré al evento")
+                if { 
+                  window.location.href = "./nuevo.html"
+                }
+
+
+
+            })
+
+
+
+        })
+
+
+
+
+    </script>
+</body>
+</html>
